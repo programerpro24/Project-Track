@@ -1,0 +1,40 @@
+*{
+    margin:0; 
+    padding:0; 
+    box-sizing: border-box;
+}
+
+html, body{
+    height:100%;
+    width:100%;
+    background-color:blueviolet; 
+}
+
+#rect{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    height:300px; 
+    width:200px;
+    border: 5px solid red;
+   background-color:blue;
+}
+
+h1{
+    position:relative;
+    text-align: center;
+    top:130px;
+}
+
+h2{
+    position:relative;
+    top:30px;
+    text-align: center;
+    font-size: 50px;
+    font:bold;
+    color:chartreuse;
+
+}
+
+
